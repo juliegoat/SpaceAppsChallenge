@@ -46,9 +46,30 @@
  	  	 	width:30%;
   	  		text-align: center;
 	 		}
+
+	 	 h1, p{
+	 	 	color: #333333;
+			font-family: Georgia, Serif;
+	 	 }
+	 	 #one {
+  			float:left; 
+  			margin-right:20px;
+ 		    width:525px;
+		 }
+		#two { 
+  			overflow:hidden;
+  			margin:20px;
+  			min-height:525px;
+		}
 	 </style>
 	</head>
 	<body>
+		<center>
+			<h1>NASA's Earth as Art</h1>
+			<p>Each of these images was taken by a NASA satellite.</p>
+			<p style="padding-bottom: 50px;">Tap on each image to see where in the world this image was taken, and a view that's a little more Earthly</p>
+
+
 		<div id="row">
 		<a class='inline' href="#Earth1"><img src="images/Earth1.jpg" id="gall_item"/></a>
 		<a class='inline' href="#Earth2"><img src="images/Earth2.jpg" id="gall_item"/></a>
@@ -79,19 +100,20 @@
 		<a class='inline' href="#Earth17"><img src="images/Earth17.jpg" id="gall_item"/></a>
 		<a class='inline' href="#Earth18"><img src="images/Earth18.jpg" id="gall_item"/></a>
 	</div>
+</center>
 	
 		
 		<!-- This contains the hidden content for inline calls -->
-		<div style='display:none'>
+		<div style='display:none; overflow:hidden;'>
 			<div id='Earth1' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Kalahari Desert, Southern Africa</h2></strong></center><br/>
+			  <center><strong><h1>Kalahari Desert, Southern Africa</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth1.jpg"/></div>
 			<div style="float:right;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6868.53978251377!2d24.006860999999887!3d-21.15660999768678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eab5da953c2537f%3A0x9be6ee084e2af6e8!2sCentral+Kalahari+Game+Reserve!5e1!3m2!1sen!2sus!4v1397397954462" width="525" height="525" frameborder="0" style="border:0"></iframe></div>
+			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;ll=-23.405916,23.939552&amp;spn=0.191879,0.338173&amp;t=h&amp;z=12&amp;output=embed"></iframe></div>
 			</div>
 
 			<div id='Earth2' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Byrd Glacier, Antarctica</h2></strong></center><br/>
+			  <center><strong><h1>Byrd Glacier, Antarctica</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth2.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Byrd+Glacier,+Antarctica&amp;aq=&amp;sll=-23.382598,24.587402&amp;sspn=3.070361,5.410767&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Byrd+Glacier&amp;ll=-80.333333,159&amp;spn=0.140547,1.352692&amp;z=10&amp;output=embed"></iframe>
@@ -99,112 +121,112 @@
 			</div>
 
 			<div id='Earth3' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Pinacate Volcano Field, Mexico</h2></strong></center><br/>
+			  <center><strong><h1>Pinacate Volcano Field, Mexico</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth3.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Pinacate,+Mexico&amp;aq=0&amp;oq=Pinacate+Vol&amp;sll=-80.32566,159.003754&amp;sspn=0.140547,1.352692&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Crater+Cerro+Colorado&amp;ll=31.918474,-113.30183&amp;spn=0.354928,0.676346&amp;z=11&amp;output=embed"></iframe></div>
 			</div>
 
 			<div id='Earth4' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Desolation Canyon, United States</h2></strong></center><br/>
+			  <center><strong><h1>Desolation Canyon, United States</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth4.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Desolation+Canyon,+Duchesne+County,+UT,+United+States&amp;aq=0&amp;oq=Desolation+Canyon,+United+States+&amp;sll=31.921279,-113.309555&amp;sspn=0.354928,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=Desolation+Canyon,&amp;hnear=Duchesne+County,+Utah&amp;ll=40.070368,-110.21904&amp;spn=0.548969,0.726013&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth5' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Rocky Mountain Trench, Canada</h2></strong></center><br/>
+			  <center><strong><h1>Rocky Mountain Trench, Canada</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth5.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rocky+Mountain+Trench,+Fraser-Fort+George+F,+BC,+Canada&amp;aq=0&amp;oq=Rocky+Mountain+Trench+&amp;sll=40.029718,-110.144806&amp;sspn=0.640384,1.352692&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Rocky+Mountain+Trench&amp;z=12&amp;ll=54,-122&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth6' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Nazca Lines, Peru</h2></strong></center><br/>
+			  <center><strong><h1>Nazca Lines, Peru</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth6.jpg"/></div>
 			<div style="float:right;">
-			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Nazca+Lines,+Peru&amp;aq=&amp;sll=54,-122&amp;sspn=0.122896,0.338173&amp;t=h&amp;g=Rocky+Mountain+Trench,+Fraser-Fort+George+F,+BC,+Canada&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=-14.739027,-75.130005&amp;spn=0.006295,0.006295&amp;output=embed"></iframe></div>
+			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;ll=-14.715452,-75.159531&amp;spn=0.101113,0.169086&amp;t=h&amp;z=13&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth7' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Mayn River, Russia</h2></strong></center><br/>
+			  <center><strong><h1>Mayn River, Russia</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth7.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mayn+River,+Russia&amp;aq=&amp;sll=-14.738913,-75.130005&amp;sspn=0.006319,0.010568&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=reka+Mayn&amp;z=8&amp;ll=64.926117,171.840037&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth8' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Wadi Branches, Jordan</h2></strong></center><br/>
+			  <center><strong><h1>Wadi Branches, Jordan</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth8.jpg"/></div>
 			<div style="float:right;">
-			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Wadi+Rum,+Aqaba,+Jordan&amp;aq=0&amp;oq=Wadi+jor&amp;sll=64.926117,171.840037&amp;sspn=1.417789,5.410767&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=29.584579,35.426273&amp;spn=0.006295,0.006295&amp;output=embed"></iframe></div>
+			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;ll=29.579951,35.41357&amp;spn=0.045458,0.084543&amp;t=h&amp;z=14&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth9' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Akpatok Island, Canada</h2></strong></center><br/>
+			  <center><strong><h1>Akpatok Island, Canada</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth9.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Akpatok+Island,+Canada&amp;aq=&amp;sll=29.625996,35.491333&amp;sspn=0.363499,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Akpatok+Island&amp;ll=60.416238,-68.141236&amp;spn=0.206438,0.676346&amp;z=11&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth10' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Gravity Waves, Above the Indian Ocean</h2></strong></center><br/>
+			  <center><strong><h1>Gravity Waves, Above the Indian Ocean</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth10.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Indian+Ocean&amp;aq=&amp;sll=60.417581,-68.127594&amp;sspn=0.206438,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Indian+Ocean&amp;ll=-33.137551,81.826172&amp;spn=12.490762,21.643066&amp;z=6&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth11' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Garden City, United States</h2></strong></center><br/>
+			  <center><strong><h1>Garden City, United States</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth11.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Garden+City,+United+States&amp;aq=&amp;sll=-20.776659,86.594238&amp;sspn=12.490762,21.643066&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Garden+City,+Nassau+County,+New+York&amp;ll=40.726768,-73.634295&amp;spn=0.039612,0.084543&amp;z=14&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth12' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Vatnajökull Glacier Ice Cap, Iceland</h2></strong></center><br/>
+			  <center><strong><h1>Vatnajökull Glacier Ice Cap, Iceland</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth12.jpg"/></div>
 			<div style="float:right;">
-			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Vatnajokull,+East,+Iceland&amp;aq=0&amp;oq=Vatnaj%C3%B6kull+Glacier,+Iceland&amp;sll=40.719876,-73.637152&amp;sspn=0.039617,0.084543&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Vatnajokull&amp;ll=64.421969,-16.790204&amp;spn=0.361407,1.352692&amp;z=10&amp;output=embed"></iframe></div>
+			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;ll=64.120794,-17.197723&amp;spn=0.365037,1.352692&amp;t=h&amp;z=10&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth13' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Himalayas, Central Asia</h2></strong></center><br/>
+			  <center><strong><h1>Himalayas, Central Asia</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth13.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Himalayas,+Central+Asia&amp;aq=&amp;sll=64.396938,-16.802216&amp;sspn=0.361407,1.352692&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Himalayas&amp;ll=30.632799,79.815882&amp;spn=11.632146,21.643066&amp;z=6&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth14' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Kuril Islands, Sea of Okhotsk</h2></strong></center><br/>
+			  <center><strong><h1>Kuril Islands, Sea of Okhotsk</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth14.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Russia,+Kuril+Islands&amp;aq=0&amp;oq=Kuril+Islands,&amp;sll=29.496988,83.913574&amp;sspn=11.632146,21.643066&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Kuril+Islands&amp;ll=46.5,151.5&amp;spn=4.602308,10.821533&amp;z=7&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth15' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Meandering Mississippi, United States</h2></strong></center><br/>
+			  <center><strong><h1>Meandering Mississippi, United States</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth15.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Mississippi,+United+States&amp;aq=&amp;sll=31.770414,-88.45579&amp;sspn=5.686174,10.821533&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Mississippi&amp;ll=31.774878,-88.450928&amp;spn=0.346434,0.676346&amp;z=11&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth16' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Great Salt Desert, Iran</h2></strong></center><br/>
+			  <center><strong><h1>Great Salt Desert, Iran</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth16.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Great+Salt+Desert,+Iran&amp;aq=&amp;sll=34.058917,-90.918732&amp;sspn=0.346434,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Kavir+Desert&amp;ll=34.580272,55.158116&amp;spn=1.377709,2.705383&amp;z=9&amp;output=embed"></iframe></div>
 			</div>
 
 				<div id='Earth17' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Carnegie Lake, Australia</h2></strong></center><br/>
-    		<div style="float:left;"><img src="images/Earth17.jpg"/></div>
+			  <center><strong><h1>Carnegie Lake, Australia</h1></strong></center><br/>
+    		<center><div><div style="float:left;"><img src="images/Earth17.jpg"/></div>
 			<div style="float:right;">
-			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Carnegie+Lake,+Australia&amp;aq=&amp;sll=34.545025,55.162354&amp;sspn=1.377709,2.705383&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Lake+Carnegie&amp;ll=-26.239334,122.559899&amp;spn=0.37506,0.676346&amp;z=11&amp;output=embed"></iframe></div>
+			<iframe width="525px" height="525px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Carnegie+Lake,+Australia&amp;aq=&amp;sll=34.545025,55.162354&amp;sspn=1.377709,2.705383&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Lake+Carnegie&amp;ll=-26.239334,122.559899&amp;spn=0.37506,0.676346&amp;z=11&amp;output=embed"></iframe></div></div></center>
 			</div>
 
 				<div id='Earth18' style='padding:10px; background:#fff;'>
-			  <center><strong><h2>Edrengiyn Nuruu, Mongolia</h2></strong></center><br/>
+			  <center><strong><h1>Edrengiyn Nuruu, Mongolia</h1></strong></center><br/>
     		<div style="float:left;"><img src="images/Earth18.jpg"/></div>
 			<div style="float:right;">
 			<iframe width="525" height="525" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Edrengiyn+Nuruu,+Mongolia&amp;aq=&amp;sll=-26.244772,122.537384&amp;sspn=0.37506,0.676346&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Edrengiyn+Nuruu&amp;z=6&amp;ll=44.25,97.75&amp;output=embed"></iframe></div>
